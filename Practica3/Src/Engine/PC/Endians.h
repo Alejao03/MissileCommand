@@ -1,0 +1,7 @@
+#pragma once
+
+#if SDL_BYTEORDER == SDL_LIL_ENDIAN
+#define PLATFORM_LITTLE_ENDIAN
+#else
+#define PLATFORM_BIG_ENDIAN
+#endif
